@@ -1,0 +1,157 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10pt;
+}
+
+table {
+  display: table;
+  height: 100%;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0.5em 2.5em;
+}
+
+li {
+  margin-bottom: 0.1em;
+}
+
+
+/* Title */
+
+#title {
+  height: 110px;
+  width: 85%;
+  background-color: rgb(49, 116, 238);
+  border-left: 1px solid rgb(220, 220, 220);
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+#title h1, #title h3{
+  color: white;
+  font-weight: 700;
+  margin: 0.2em 0;
+}
+
+#title h1 {
+  font-size: 30pt;
+}
+
+
+/* Contact Info */
+
+#contact-info {
+  padding: 0.5em 1.5em;
+  background-color: rgb(246, 246, 246);
+  border-right: 1px solid rgb(220, 220, 220);
+  border-bottom: 1px solid rgb(220, 220, 220);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9pt;
+}
+
+#contact-info div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info-icon {
+  padding: 0.5em 1em;
+}
+
+.contact-info-detail {
+  width: 80%;
+  padding-left: 0;
+}
+
+
+/* Content */
+
+.content {
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.content > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  margin: 1em 0;
+}
+
+.section span {
+  display: block;
+}
+
+.label-container {
+  position: relative;
+  padding: 0;
+  border-right: 1px solid rgb(220, 220, 220);
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.label-container > div {
+  position: absolute;
+  top: 1.5em;
+  right: -0.75em;
+}
+
+.label {
+  background-color: rgb(49, 116, 238);
+  color: white;
+  padding: 0.5em 1em 0.5em 0.5em;
+}
+
+.label h3 {
+  margin: 0;
+  font-weight: 300;
+}
+
+.label-fold {
+  float: right;
+  width: 0;
+  height: 0;
+  border-top: 6px solid rgb(25, 58, 119);
+  border-right: 10px solid transparent;
+}
+
+/* Jobs */
+
+.timespan {
+  font-style: italic;
+}
+
+.job-title {
+  font-size: 15pt;
+  margin: 0.2em 0;
+}
+
+.job-location, .job-accomplishments {
+  color: rgb(70, 70, 70);
+}
+
+.job-accomplishments {
+  font-weight: 200;
+}
+
+
+/* Skills */
+#skills {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100px;
+}
