@@ -3,10 +3,10 @@ html {
 }
 
 body {
-  width: 900px;
+  width: 885px;
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
-  font-size: 10pt;
+  font-size: 9pt;
 }
 
 table {
@@ -29,7 +29,7 @@ li {
 
 #title {
   height: 110px;
-  width: 85%;
+  width: 90%;
   background-color: rgb(49, 116, 238);
   border-left: 1px solid rgb(220, 220, 220);
   border-bottom: 1px solid rgb(220, 220, 220);
@@ -49,12 +49,12 @@ li {
 /* Contact Info */
 
 #contact-info {
-  padding: 0.5em 1.5em;
+  padding: 0.5em;
   background-color: rgb(246, 246, 246);
   border-right: 1px solid rgb(220, 220, 220);
   border-bottom: 1px solid rgb(220, 220, 220);
   font-family: 'Montserrat', sans-serif;
-  font-size: 9pt;
+  font-size: 8pt;
 }
 
 #contact-info div {
@@ -70,6 +70,7 @@ li {
 .contact-info-detail {
   width: 80%;
   padding-left: 0;
+  padding-right: 1em;
 }
 
 
@@ -131,7 +132,7 @@ li {
 }
 
 .job-title {
-  font-size: 15pt;
+  font-size: 14pt;
   margin: 0.2em 0;
 }
 
@@ -154,4 +155,12 @@ li {
   flex-direction: column;
   flex-wrap: wrap;
   height: 100px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  font-size: 8pt;
 }
